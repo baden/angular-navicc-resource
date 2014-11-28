@@ -1,0 +1,38 @@
+{
+  "name": "angular-navicc-resource",
+  "version": "0.0.1",
+  "title": "API AngularJS Service for NaviCC server",
+  "description": "Wraps the NaviCC API into AngularJS services.",
+  "keywords": [
+    "angular",
+    "navicc"
+  ],
+  "author": "Denis Batrak",
+  "homepage": "http://baden.github.io/angular-navicc-resource/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baden/angular-navicc-resource/"
+  },
+  "bugs": {
+    "url": "https://github.com/baden/angular-navicc-resource/issues"
+  },
+  "main": [
+    "./angular-navicc-resource.js",
+    "./angular-navicc-resource.min.js"
+  ],
+  "ignore": [
+    "**/.*",
+    "src",
+    "test",
+    "package.json",
+    "node_modules",
+    "bower_components"
+  ],
+  "devDependencies": {
+    "angular-mocks": "~1.3.4"
+  },
+  "dependencies": {
+    "angular": "~1.3.4"
+  }
+}
